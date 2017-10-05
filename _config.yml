@@ -6,7 +6,7 @@ title:               Sunique
 tagline:             A Blog
 url:                 http://suniique.github.io/
 paginate:            1
-baseurl:             "http://suniique.github.io/"
+baseurl:             http://suniique.github.io/
 
 # Assets
 #
