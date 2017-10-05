@@ -2,31 +2,34 @@
 permalink:           pretty
 
 # Setup
-title:               Suniique's Blog
-tagline:             A Blog
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+title:               Progress
+tagline:             A responsive blog theme that illustrates reading progress. Suited for continous reading.
+url:                 http://alexanderussell.github.io
+baseurl:             /progress-for-jekyll
+analytics_id:
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+# Owner/author information
+owner:
+  name:           Alex Russell
+  avatar:         avatar.png
+  bio:            "Designer."
+  email:          alex@collectivelymade.com
+  twitter:        alexanderussell
+  github:         alexanderussell
+  instagram:      alexanderussell
+  dribbble:       alexanderussell
+  location:       "Lincoln, NE"
 
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              
+
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
 
 # Gems
 gems:
   - jekyll-paginate
-  - jekyll-gist
