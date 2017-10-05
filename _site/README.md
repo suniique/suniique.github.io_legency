@@ -1,2 +1,0 @@
-# suniique.github.io
-Blog
