@@ -4,7 +4,7 @@
  <title>Suniique's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-10-05T22:06:50+08:00</updated>
+ <updated>2017-10-05T22:12:00+08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Mark Otto</name>
@@ -18,6 +18,24 @@
    <updated>2017-10-05T00:00:00+08:00</updated>
    <id>http://localhost:4000/2017/10/05/hello-world</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://suniique.github.io&quot;&gt;Suniique’s Blog&lt;/a&gt; is my first web blog on GitHub.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Markdown及中文测试</title>
+   <link href="http://localhost:4000/markdown/2017/10/05/hello-world-2/"/>
+   <updated>2017-10-05T00:00:00+08:00</updated>
+   <id>http://localhost:4000/markdown/2017/10/05/hello-world-2</id>
+   <content type="html">&lt;p&gt;#中文测试&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;中文&lt;/li&gt;
+  &lt;li&gt;English&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;hello-world-&quot;&gt;Hello World !&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://suniique.github.io&quot;&gt;Suniique’s Blog&lt;/a&gt; is my first web blog on GitHub.&lt;/p&gt;
 
 </content>
  </entry>
