@@ -560,7 +560,7 @@ pre .k, pre .kd, pre .kn, pre .kp, pre .kr, pre .kt, pre .javascript .function {
 .links-of-author { margin-top: 20px; }
 
 .links-of-author a { display: inline-block; vertical-align: middle; margin-right: 10px; margin-bottom: 10px; border-bottom-color: #555; font-size: 13px; }
-.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: #c7fa45; }
+.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: #400003; }
 
 .links-of-blogroll { font-size: 13px; }
 
@@ -882,7 +882,8 @@ dl dd > :last-child { margin-bottom: 0; }
 .header-inner { padding: 25px 0 20px; }
 .header-inner:before, .header-inner:after { content: " "; display: table; }
 .header-inner:after { clear: both; }
-@media (max-width: 767px) { .header-inner { width: auto; margin-bottom: 50px; padding: 10px; } }
+@media (max-width: 767px) { .header-inner { width: auto; margin-bottom: 50px; padding: 10px; }
+  .header-inner a { font-size: 16px; } }
 
 .site-meta { float: left; margin-left: -20px; line-height: normal; }
 @media (max-width: 767px) { .site-meta { margin-left: 10px; } }
@@ -926,7 +927,7 @@ dl dd > :last-child { margin-bottom: 0; }
 .posts-expand .post:first-child { margin-top: 0; }
 .posts-expand .post-meta { margin-top: 5px; margin-bottom: 20px; font-size: 14px; }
 .posts-expand .post-title { position: relative; font-size: 26px; font-weight: 400; }
-@media (max-width: 767px) { .posts-expand .post-title { font-size: 20px; } }
+@media (max-width: 767px) { .posts-expand .post-title { font-size: 24px; } }
 @media (min-width: 1600px) { .posts-expand .post-title { font-size: 26px; } }
 .posts-expand .post-title:hover:before { background: #222; }
 .posts-expand .post-body img { margin: 0; }

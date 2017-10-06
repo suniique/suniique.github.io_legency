@@ -23,7 +23,7 @@
     position: relative;
     font-size: $font-size-headings-base;
     font-weight: 400;
-    @include mobile() { font-size: $font-size-headings-smaller; }
+    @include mobile() { font-size: $font-size-headings-smaller*1.2; }
     @include desktop-large() { font-size: $font-size-headings-large; }
   }
   .post-title:hover:before { background: $black-deep; }
