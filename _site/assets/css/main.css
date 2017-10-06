@@ -126,7 +126,7 @@ td, th { padding: 0; }
 
 ::selection { background: #262a30; color: white; }
 
-body { position: relative; font-family: "Helvetica,Arial,sans-serif", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 14px; line-height: 2; color: #555; background: white; }
+body { position: relative; font-family: "Nunito","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 16.8px; line-height: 1.6; font-weight: normal; color: #555; background: white; }
 @media (max-width: 767px) { body { padding-right: 0 !important; } }
 @media (min-width: 768px) and (max-width: 991px) { body { padding-right: 0 !important; } }
 @media (min-width: 1600px) { body { font-size: 16px; } }
@@ -153,7 +153,7 @@ h5 { font-size: 16px; }
 h6 { font-size: 14px; }
 
 @media (max-width: 767px) { h6 { font-size: 10px; } }
-p { margin: 0 0 25px 0; }
+p { margin: 0 0 25px 0; font-weight: normal; }
 
 a { color: #555; text-decoration: none; border-bottom: 1px solid #999; word-wrap: break-word; }
 a:hover { color: #222; border-bottom-color: #222; }
@@ -166,6 +166,8 @@ hr { margin: 40px 0; height: 3px; border: none; background-color: #ddd; backgrou
 
 blockquote { padding: 0 15px; color: #666; border-left: 4px solid #ddd; }
 blockquote cite::before { content: "-"; padding: 0 5px; }
+
+blockquote p { font-size: 18.2px; }
 
 dt { font-weight: 700; }
 
@@ -558,7 +560,7 @@ pre .k, pre .kd, pre .kn, pre .kp, pre .kr, pre .kt, pre .javascript .function {
 .links-of-author { margin-top: 20px; }
 
 .links-of-author a { display: inline-block; vertical-align: middle; margin-right: 10px; margin-bottom: 10px; border-bottom-color: #555; font-size: 13px; }
-.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: #aba1ff; }
+.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: #de1c00; }
 
 .links-of-blogroll { font-size: 13px; }
 
@@ -609,7 +611,7 @@ pre .k, pre .kd, pre .kn, pre .kp, pre .kr, pre .kt, pre .javascript .function {
 .post-toc .nav .active-current > a { color: #87daff; }
 .post-toc .nav .active-current > a:hover { color: #87daff; }
 
-.footer { font-size: 14px; color: #999; }
+.footer { font-size: 16px; color: #999; }
 .footer img { border: none; }
 
 .footer-inner { text-align: center; }
@@ -776,7 +778,7 @@ pre .k, pre .kd, pre .kn, pre .kp, pre .kr, pre .kt, pre .javascript .function {
 
 h1, h2, h3, h4, h5, h6 { margin: 20px 0 10px; }
 
-p { margin: 0 0 25px 0; }
+p { margin: 0 0 25px 0; font-weight: 300; }
 
 a { border-bottom-color: #ccc; }
 
@@ -831,14 +833,14 @@ hr { margin: 20px 0; height: 2px; }
 .posts-expand .post-eof { display: none; }
 .posts-expand .post { margin-top: 120px; }
 .posts-expand .post:first-child { margin-top: 0; }
-.posts-expand .post-meta { margin-top: 5px; margin-bottom: 20px; }
+.posts-expand .post-meta { margin-top: 5px; margin-bottom: 20px; font-size: 14px; }
 .posts-expand .post-title { position: relative; font-size: 26px; font-weight: 400; }
 @media (max-width: 767px) { .posts-expand .post-title { font-size: 20px; } }
 @media (min-width: 1600px) { .posts-expand .post-title { font-size: 26px; } }
 .posts-expand .post-title:hover:before { background: #222; }
 .posts-expand .post-body img { margin: 0; }
 .posts-expand .post-tags { text-align: left; }
-.posts-expand .post-tags a { padding: 1px 5px; background: #f5f5f5; border-bottom: none; }
+.posts-expand .post-tags a { padding: 1px 5px; background: #f5f5f5; border-bottom: none; font-size: 15.4px; }
 .posts-expand .post-tags a:hover { background: #ccc; }
 .posts-expand .post-nav { margin-top: 40px; }
 

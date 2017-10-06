@@ -16,6 +16,7 @@
   .post-meta {
     margin-top: 5px;
     margin-bottom: 20px;
+    font-size: $font-size-base;
   }
 
   .post-title {
@@ -35,6 +36,7 @@
       padding: 1px 5px;
       background: $whitesmoke;
       border-bottom: none;
+      font-size: $font-size-base*1.1;
     }
     a:hover { background: $grey-light; }
   }
