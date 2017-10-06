@@ -560,7 +560,7 @@ pre .k, pre .kd, pre .kn, pre .kp, pre .kr, pre .kt, pre .javascript .function {
 .links-of-author { margin-top: 20px; }
 
 .links-of-author a { display: inline-block; vertical-align: middle; margin-right: 10px; margin-bottom: 10px; border-bottom-color: #555; font-size: 13px; }
-.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: #ffffb3; }
+.links-of-author a:before { display: inline-block; vertical-align: middle; margin-right: 3px; content: " "; width: 4px; height: 4px; border-radius: 50%; background: #ffff66; }
 
 .links-of-blogroll { font-size: 13px; }
 
@@ -777,14 +777,17 @@ pre .k, pre .kd, pre .kn, pre .kp, pre .kr, pre .kt, pre .javascript .function {
 .page-post-detail .comments { overflow: hidden; }
 
 .post-body { padding: 0 0 0 30px; }
+@media (max-width: 767px) { .post-body { padding: 0; } }
 
 h1, h2, h3, h4, h5, h6 { margin: 20px 0 10px; padding: 0 -50px 0 -50px; font-weight: bold; -webkit-font-smoothing: antialiased; cursor: text; position: relative; }
 
 h1 { font-size: 26px; font-weight: normal; border-bottom: 1px solid #C4C4C4; padding-top: 0.8rem; margin-bottom: 0.8rem; }
 
 h2 { color: #2C679E; font-weight: bold; font-size: 24px; border-bottom: 1px dashed #4183C4; margin-bottom: 25px; margin-left: -30px; }
+@media (max-width: 767px) { h2 { margin-left: 0px; } }
 
 h3 { color: #2C679E; font-size: 20px; padding-bottom: 0.8rem; margin-left: -25px; }
+@media (max-width: 767px) { h3 { margin-left: 0px; } }
 
 h4 { font-size: 18px; padding-bottom: 0.8rem; }
 
@@ -907,7 +910,7 @@ dl dd > :last-child { margin-bottom: 0; }
 .menu .menu-item { margin: 0; }
 @media (max-width: 767px) { .menu .menu-item { display: block; } }
 .menu .menu-item a { padding: 0 10px; background: none; border: none; border-radius: 2px; transition-property: background; }
-@media (max-width: 767px) { .menu .menu-item a { text-align: left; } }
+@media (max-width: 767px) { .menu .menu-item a { text-align: left; padding: 10px; } }
 .menu .menu-item a:hover { background: #e1e1e1; }
 .menu a::before { display: none; }
 @media (max-width: 767px) { .menu a::before { display: block; } }

@@ -31,6 +31,7 @@
 
     @include mobile() {
       text-align: left;
+      padding: 10px; 
     }
 
     &:hover { background: #e1e1e1; }

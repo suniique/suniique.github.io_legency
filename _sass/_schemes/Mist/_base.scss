@@ -8,6 +8,9 @@
 
 .post-body{
   padding: 0 0 0 30px; 
+  @include mobile() {
+    padding:0;
+  }
 }
 
 
@@ -32,12 +35,20 @@ h2 {
   font-size: 24px;
   border-bottom: 1px dashed #4183C4;;
   margin-bottom:25px;
-  margin-left: -30px;}
+  margin-left: -30px;
+  @include mobile() {
+    margin-left: 0px;
+  }
+}
   
 h3 {
   color: #2C679E;
   font-size: 20px; padding-bottom:0.8rem;
-  margin-left: -25px;}
+  margin-left: -25px;
+  @include mobile() {
+    margin-left: 0px; 
+  }
+}
 
 h4 {
   font-size: 18px; padding-bottom:0.8rem;}
