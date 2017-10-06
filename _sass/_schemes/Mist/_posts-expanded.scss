@@ -23,6 +23,7 @@
     position: relative;
     font-size: $font-size-headings-base;
     font-weight: 400;
+    background: #555555;
     @include mobile() { font-size: $font-size-headings-smaller*1.2; }
     @include desktop-large() { font-size: $font-size-headings-large; }
   }
