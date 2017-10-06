@@ -4,25 +4,80 @@
     <entry>
       <title><![CDATA[Test for Markdown]]></title>
       <url>/test/2017/10/06/Markdown-Test/</url>
-      <content type="html"><![CDATA[<h2 id="段落标题">段落标题</h2>
+      <content type="html"><![CDATA[<h2 id="test">Test</h2>
 
-<h3 id="sub-title">Sub Title</h3>
+<h3 id="中文测试">中文测试</h3>
 
-<h4 id="little-title">little title</h4>
+<h4 id="千字文">千字文</h4>
 
-<p>天地玄黄 宇宙洪荒 日月盈昃 辰宿列张</p>
+<p>千字文</p>
 
-<p>寒来暑往 秋收冬藏 闰馀成岁 律吕调阳</p>
+<blockquote>
+  <p>天地玄黄 宇宙洪荒 日月盈昃 辰宿列张</p>
 
-<p>云腾致雨 露结为霜 金生丽水 玉出昆冈</p>
+  <p>寒来暑往 秋收冬藏 闰馀成岁 律吕调阳</p>
 
-<h2 id="math">Math</h2>
+  <p>云腾致雨 露结为霜 金生丽水 玉出昆冈</p>
+</blockquote>
 
-<p>牛顿第二定律：
-\[F=m a\]</p>
+<h3 id="mathjex测试">MathJex测试</h3>
+
+<p>质能方程：
+\[ \Delta E= \Delta m c^2\]</p>
 
 <p>求和：
 \[\sum_{i=1}^n{i^2}=\frac{n(n+1)(2n+1)}{2}\]</p>
+
+<h3 id="表格测试">表格测试</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>排序算法</th>
+      <th>时间复杂度</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>冒泡排序</td>
+      <td>$O(n^2)$</td>
+    </tr>
+    <tr>
+      <td>插入排序</td>
+      <td>$O(n^2)$</td>
+    </tr>
+    <tr>
+      <td>快速排序</td>
+      <td>$O(n \log n)$</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="图片测试">图片测试</h3>
+
+<p><img src="/assets/images/post/yinhuajie1.jpg" alt="测试图片" /></p>
+
+<h2 id="综合">综合</h2>
+
+<h3 id="稀缺性">稀缺性</h3>
+
+<p>稀缺性的力量源于：</p>
+<ol>
+  <li>对经验依赖：根据获得东西的难易程度来迅速准确地判断质量</li>
+  <li>既得利益的保护：当机会越来越少时，我们的自由也在丧失，<strong>保护既得利益是逆反的核心</strong></li>
+</ol>
+
+<p>例子：</p>
+
+<ul>
+  <li>两岁男孩的行为，直接挑衅
+    <ul>
+      <li>表现：对于限制自由时的反抗行为</li>
+      <li>原因：他们正在体验独立的人类个体</li>
+      <li>意义：对信息的求索，关于选择、权利和控制，<strong>测试自由的极限在哪里。</strong></li>
+    </ul>
+  </li>
+</ul>
 
 ]]></content>
       <categories>

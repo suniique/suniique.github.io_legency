@@ -1,22 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-06T13:53:23+08:00</updated><id>http://localhost:4000/</id><title type="html">Suniique</title><subtitle>Blog</subtitle><author><name>Sun Tao</name></author><entry><title type="html">Test for Markdown</title><link href="http://localhost:4000/test/2017/10/06/Markdown-Test/" rel="alternate" type="text/html" title="Test for Markdown" /><published>2017-10-06T00:00:00+08:00</published><updated>2017-10-06T00:00:00+08:00</updated><id>http://localhost:4000/test/2017/10/06/Markdown-Test</id><content type="html" xml:base="http://localhost:4000/test/2017/10/06/Markdown-Test/">&lt;h2 id=&quot;段落标题&quot;&gt;段落标题&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-07T00:05:51+08:00</updated><id>http://localhost:4000/</id><title type="html">Suniique</title><subtitle>Blog</subtitle><author><name>Sun Tao</name></author><entry><title type="html">Test for Markdown</title><link href="http://localhost:4000/test/2017/10/06/Markdown-Test/" rel="alternate" type="text/html" title="Test for Markdown" /><published>2017-10-06T00:00:00+08:00</published><updated>2017-10-06T00:00:00+08:00</updated><id>http://localhost:4000/test/2017/10/06/Markdown-Test</id><content type="html" xml:base="http://localhost:4000/test/2017/10/06/Markdown-Test/">&lt;h2 id=&quot;test&quot;&gt;Test&lt;/h2&gt;
 
-&lt;h3 id=&quot;sub-title&quot;&gt;Sub Title&lt;/h3&gt;
+&lt;h3 id=&quot;中文测试&quot;&gt;中文测试&lt;/h3&gt;
 
-&lt;h4 id=&quot;little-title&quot;&gt;little title&lt;/h4&gt;
+&lt;h4 id=&quot;千字文&quot;&gt;千字文&lt;/h4&gt;
 
-&lt;p&gt;天地玄黄 宇宙洪荒 日月盈昃 辰宿列张&lt;/p&gt;
+&lt;p&gt;千字文&lt;/p&gt;
 
-&lt;p&gt;寒来暑往 秋收冬藏 闰馀成岁 律吕调阳&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;天地玄黄 宇宙洪荒 日月盈昃 辰宿列张&lt;/p&gt;
 
-&lt;p&gt;云腾致雨 露结为霜 金生丽水 玉出昆冈&lt;/p&gt;
+  &lt;p&gt;寒来暑往 秋收冬藏 闰馀成岁 律吕调阳&lt;/p&gt;
 
-&lt;h2 id=&quot;math&quot;&gt;Math&lt;/h2&gt;
+  &lt;p&gt;云腾致雨 露结为霜 金生丽水 玉出昆冈&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;牛顿第二定律：
-\[F=m a\]&lt;/p&gt;
+&lt;h3 id=&quot;mathjex测试&quot;&gt;MathJex测试&lt;/h3&gt;
+
+&lt;p&gt;质能方程：
+\[ \Delta E= \Delta m c^2\]&lt;/p&gt;
 
 &lt;p&gt;求和：
-\[\sum_{i=1}^n{i^2}=\frac{n(n+1)(2n+1)}{2}\]&lt;/p&gt;</content><author><name>Sun Tao</name></author><category term="TeX" /><category term="jekyll" /><summary type="html">段落标题</summary></entry><entry><title type="html">Hello World !</title><link href="http://localhost:4000/test/2017/10/05/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/" rel="alternate" type="text/html" title="Hello World !" /><published>2017-10-05T00:00:00+08:00</published><updated>2017-10-05T00:00:00+08:00</updated><id>http://localhost:4000/test/2017/10/05/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6</id><content type="html" xml:base="http://localhost:4000/test/2017/10/05/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/">&lt;p&gt;This is a Chinese test post.&lt;/p&gt;
+\[\sum_{i=1}^n{i^2}=\frac{n(n+1)(2n+1)}{2}\]&lt;/p&gt;
+
+&lt;h3 id=&quot;表格测试&quot;&gt;表格测试&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;排序算法&lt;/th&gt;
+      &lt;th&gt;时间复杂度&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;冒泡排序&lt;/td&gt;
+      &lt;td&gt;$O(n^2)$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;插入排序&lt;/td&gt;
+      &lt;td&gt;$O(n^2)$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;快速排序&lt;/td&gt;
+      &lt;td&gt;$O(n \log n)$&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;图片测试&quot;&gt;图片测试&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post/yinhuajie1.jpg&quot; alt=&quot;测试图片&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;综合&quot;&gt;综合&lt;/h2&gt;
+
+&lt;h3 id=&quot;稀缺性&quot;&gt;稀缺性&lt;/h3&gt;
+
+&lt;p&gt;稀缺性的力量源于：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;对经验依赖：根据获得东西的难易程度来迅速准确地判断质量&lt;/li&gt;
+  &lt;li&gt;既得利益的保护：当机会越来越少时，我们的自由也在丧失，&lt;strong&gt;保护既得利益是逆反的核心&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;例子：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;两岁男孩的行为，直接挑衅
+    &lt;ul&gt;
+      &lt;li&gt;表现：对于限制自由时的反抗行为&lt;/li&gt;
+      &lt;li&gt;原因：他们正在体验独立的人类个体&lt;/li&gt;
+      &lt;li&gt;意义：对信息的求索，关于选择、权利和控制，&lt;strong&gt;测试自由的极限在哪里。&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Sun Tao</name></author><category term="TeX" /><category term="jekyll" /><summary type="html">Test</summary></entry><entry><title type="html">Hello World !</title><link href="http://localhost:4000/test/2017/10/05/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/" rel="alternate" type="text/html" title="Hello World !" /><published>2017-10-05T00:00:00+08:00</published><updated>2017-10-05T00:00:00+08:00</updated><id>http://localhost:4000/test/2017/10/05/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6</id><content type="html" xml:base="http://localhost:4000/test/2017/10/05/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/">&lt;p&gt;This is a Chinese test post.&lt;/p&gt;
 
 &lt;p&gt;善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。&lt;/p&gt;
 
