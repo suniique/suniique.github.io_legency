@@ -6,7 +6,7 @@
 # Site
 title: Suniique
 subtitle: blog
-description:
+description: blog
 author: Sun Tao
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
@@ -270,7 +270,7 @@ sidebar:
   #display: remove
 
   # Sidebar offset from top menubar in pixels.
-  offset: 12
+  offset: 15
   offset_float: 0
 
   # Back to top in sidebar
@@ -304,7 +304,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: true
+  enable: false
   length: 250
 
 # Post meta display settings
