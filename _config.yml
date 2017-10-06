@@ -173,7 +173,7 @@ font:
   global:
     # external: true will load this font family from host.
     external: false
-    family: Helvetica,Arial,sans-serif
+    family: Arial,Helvetica,sans-serif
 
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
