@@ -172,10 +172,9 @@ font:
   # Global font settings used on <body> element.
   global:
     # external: true will load this font family from host.
-    external: true
+    external: false
     family: Helvetica,Arial,sans-serif
-    size: 20px
-    font-size: 20px
+
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
