@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-06T12:07:28+08:00</updated><id>http://localhost:4000/</id><title type="html">Suniique</title><subtitle>Blog</subtitle><author><name>Sun Tao</name></author><entry><title type="html">Hello World !</title><link href="http://localhost:4000/test/2017/10/05/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/" rel="alternate" type="text/html" title="Hello World !" /><published>2017-10-05T00:00:00+08:00</published><updated>2017-10-05T00:00:00+08:00</updated><id>http://localhost:4000/test/2017/10/05/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6</id><content type="html" xml:base="http://localhost:4000/test/2017/10/05/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/">&lt;p&gt;This is a Chinese test post.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-06T13:44:35+08:00</updated><id>http://localhost:4000/</id><title type="html">Suniique</title><subtitle>Blog</subtitle><author><name>Sun Tao</name></author><entry><title type="html">Test for Markdown</title><link href="http://localhost:4000/test/2017/10/06/Markdown-Test/" rel="alternate" type="text/html" title="Test for Markdown" /><published>2017-10-06T00:00:00+08:00</published><updated>2017-10-06T00:00:00+08:00</updated><id>http://localhost:4000/test/2017/10/06/Markdown-Test</id><content type="html" xml:base="http://localhost:4000/test/2017/10/06/Markdown-Test/">&lt;h2 id=&quot;段落标题&quot;&gt;段落标题&lt;/h2&gt;
+
+&lt;h3 id=&quot;sub-title&quot;&gt;Sub Title&lt;/h3&gt;
+
+&lt;h4 id=&quot;little-title&quot;&gt;little title&lt;/h4&gt;
+
+&lt;p&gt;天地玄黄 宇宙洪荒 日月盈昃 辰宿列张&lt;/p&gt;
+
+&lt;p&gt;寒来暑往 秋收冬藏 闰馀成岁 律吕调阳&lt;/p&gt;
+
+&lt;p&gt;云腾致雨 露结为霜 金生丽水 玉出昆冈&lt;/p&gt;
+
+&lt;h2 id=&quot;math&quot;&gt;Math&lt;/h2&gt;
+
+&lt;p&gt;牛顿第二定律：
+\[F=m a\]&lt;/p&gt;
+
+&lt;p&gt;求和：
+\[\sum_{i=1}^n{i^2}=\frac{n(n+1)(2n+1)}{2}\]&lt;/p&gt;</content><author><name>Sun Tao</name></author><category term="TeX" /><category term="jekyll" /><summary type="html">段落标题</summary></entry><entry><title type="html">Hello World !</title><link href="http://localhost:4000/test/2017/10/05/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/" rel="alternate" type="text/html" title="Hello World !" /><published>2017-10-05T00:00:00+08:00</published><updated>2017-10-05T00:00:00+08:00</updated><id>http://localhost:4000/test/2017/10/05/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6</id><content type="html" xml:base="http://localhost:4000/test/2017/10/05/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/">&lt;p&gt;This is a Chinese test post.&lt;/p&gt;
 
 &lt;p&gt;善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。&lt;/p&gt;
 

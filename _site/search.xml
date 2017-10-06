@@ -2,6 +2,45 @@
 <search>
   
     <entry>
+      <title><![CDATA[Test for Markdown]]></title>
+      <url>/test/2017/10/06/Markdown-Test/</url>
+      <content type="html"><![CDATA[<h2 id="段落标题">段落标题</h2>
+
+<h3 id="sub-title">Sub Title</h3>
+
+<h4 id="little-title">little title</h4>
+
+<p>天地玄黄 宇宙洪荒 日月盈昃 辰宿列张</p>
+
+<p>寒来暑往 秋收冬藏 闰馀成岁 律吕调阳</p>
+
+<p>云腾致雨 露结为霜 金生丽水 玉出昆冈</p>
+
+<h2 id="math">Math</h2>
+
+<p>牛顿第二定律：
+\[F=m a\]</p>
+
+<p>求和：
+\[\sum_{i=1}^n{i^2}=\frac{n(n+1)(2n+1)}{2}\]</p>
+
+]]></content>
+      <categories>
+        
+          <category> Test </category>
+        
+      </categories>
+      <tags>
+        
+          <tag> TeX </tag>
+        
+          <tag> jekyll </tag>
+        
+      </tags>
+      <tags></tags>
+    </entry>
+  
+    <entry>
       <title><![CDATA[Hello World !]]></title>
       <url>/test/2017/10/05/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/</url>
       <content type="html"><![CDATA[<p>This is a Chinese test post.</p>

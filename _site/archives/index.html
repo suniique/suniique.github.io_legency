@@ -14,7 +14,7 @@
 
 
 
-<html class="theme-next mist use-motion" lang="zh-Hans">
+<html class="theme-next mist" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -71,10 +71,6 @@
 
   
 
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Helvetica,Arial,sans-serif:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -135,7 +131,7 @@
     scheme: 'Mist',
     sidebar: {"position":"left","display":"hide","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
     fancybox: true,
-    motion: true,
+    motion: false,
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -338,7 +334,7 @@
     
     嗯..!
     
-      目前共计 1 篇日志。
+      目前共计 2 篇日志。
     
     继续努力。
   </span>
@@ -356,6 +352,40 @@
       <div class="collection-title" route="/">
         <h2 class="archive-year motion-element" id="archive-year-2017">2017</h2>
       </div>
+    
+    
+
+    
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article" route="/">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/test/2017/10/06/Markdown-Test/" itemprop="url">
+              
+                <span itemprop="name">Test for Markdown</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2017-10-06T00:00:00+08:00"
+              content="2017-10-06" >
+          10-06
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+  
+    
+
+    
+    
     
     
 
@@ -432,7 +462,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -454,7 +484,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -615,10 +645,6 @@
 
   
     
-      <script type="text/javascript" id="motion.page.archive">
-        $('.archive-year').velocity('transition.slideLeftIn');
-      </script>
-    
     
 
 
@@ -644,7 +670,7 @@
       
 
       
-        var sizes = 1
+        var sizes = 2
         var base = "#";
       
 
@@ -1065,6 +1091,26 @@
 
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
 
