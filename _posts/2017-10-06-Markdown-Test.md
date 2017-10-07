@@ -47,10 +47,26 @@ image:
 ```python
 def fib(n):
   if n<=1: return 1
-  return fib(n-1)+fib(n-2)
-
+  return fib(n-1)+fib()
 ```
+{% highlight cpp linenos %}
 
+/**
+ * LinkNode struct defination
+ * The node in Linked List.
+ */
+template <class Type>
+struct LinkNode {
+    Type data;
+    LinkNode<Type> *next;
+    LinkNode(LinkNode<Type> *ptr = NULL) { next = ptr; }
+    LinkNode(const Type &item, LinkNode<Type> *ptr = NULL) {
+        data = item;
+        next = ptr;
+    }
+};
+
+{% endhighlight %}
 ## 综合
 
 ### 稀缺性
