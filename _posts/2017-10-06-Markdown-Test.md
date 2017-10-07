@@ -42,6 +42,15 @@ image:
 
 ![测试图片](/assets/images/post/yinhuajie1.jpg)
 
+### 代码测试
+
+```python
+def fib(n):
+  if n<=1: return 1
+  return fib(n-1)+fib(n-2)
+
+```
+
 ## 综合
 
 ### 稀缺性

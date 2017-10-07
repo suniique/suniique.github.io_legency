@@ -57,6 +57,15 @@
 
 <p><img src="/assets/images/post/yinhuajie1.jpg" alt="测试图片" /></p>
 
+<h3 id="代码测试">代码测试</h3>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+  <span class="k">if</span> <span class="n">n</span><span class="o">&lt;=</span><span class="mi">1</span><span class="p">:</span> <span class="k">return</span> <span class="mi">1</span>
+  <span class="k">return</span> <span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">+</span><span class="n">fib</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
+
+</code></pre>
+</div>
+
 <h2 id="综合">综合</h2>
 
 <h3 id="稀缺性">稀缺性</h3>
