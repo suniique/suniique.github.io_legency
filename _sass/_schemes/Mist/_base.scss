@@ -23,9 +23,9 @@ h1, h2, h3, h4, h5, h6 {
   position: relative; }
 
 h1 {
-  font-size: 26px;
-  
-  font-weight: normal;
+  font-size: 28px;
+  padding-bottom: 20px;
+  font-weight: bolder;
   border-bottom: 1px solid #DFDFDF;
 }
 
@@ -201,3 +201,7 @@ dl {
     dl dd > :last-child {
       margin-bottom: 0; }
 
+.post-index-description{
+  font-size: $font-size-base*1.1;
+  color: $grey-dim;
+}

@@ -2,7 +2,14 @@
 // --------------------------------------------------
 .posts-expand {
   padding-top: 0;
+.post-header{
+  margin: -50px -60px 20px -30px;
+  padding: 25px 50px 5px 50px;
 
+  @include mobile() { margin: -80px -30px 20px -30px; }
+  
+}
+  
   .post-title,
   .post-meta {
     text-align: $site-meta-text-align;
@@ -15,17 +22,21 @@
 
   .post-meta {
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: $font-size-base;
   }
 
   .post-title {
     position: relative;
     font-size: $font-size-headings-base;
-    font-weight: 400;
-    background: rgba(5%,5%,5%,0.2);
+    font-weight: 800;
+    
     @include mobile() { font-size: $font-size-headings-smaller*1.2; }
     @include desktop-large() { font-size: $font-size-headings-large; }
+  }
+
+  .post-header{
+    background: rgba(189, 189, 189, 0.06);
   }
   .post-title:hover:before { background: $black-deep; }
 

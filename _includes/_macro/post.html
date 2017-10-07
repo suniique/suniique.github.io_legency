@@ -289,8 +289,10 @@
           <!--/noindex-->
       {% elsif site.auto_excerpt.enable %}
           {% assign content = post.content | strip_html %}
+          <div class="post-index-description">
           {{ content | slice: 0, site.auto_excerpt.length }}
-          {% if content.size > site.auto_excerpt.length %}...{% endif %}
+          </div>
+          {% if content.size > site.auto_excerpt.length %}......{% endif %}
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="{{ post.url | relative_url }}{% if site.scroll_to_more %}#{{ __.post.more }}{% endif %}" rel="contents">
